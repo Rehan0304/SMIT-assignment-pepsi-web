@@ -48,21 +48,21 @@ ul li img:hover{
 #apple_music_container{
     
     background: url(./assets/background.png);
-    height: 100vh;
+    height: 610px;
     width: 100%;
-    max-height: 100vh;
-    max-width: 100%;
+    /* max-height: 100vh; */
+    /* max-width: 100%; */
     display: flex;
 }
 #bottle_apple_music{
     background: url(./assets/pzs-can-old.png) no-repeat;
     background-size:auto 550px;
     width: 530px;
-    height: 470px;
+    height: 510px;
     /* position: relative; */
     /* border: 2px solid black; */
     display: flex;
-    margin:150px -80px;
+    margin:100px -80px;
 }
 #unlock_music{
     background: url(./assets/apple-music-lockup-small-mobile.svg) no-repeat ;
@@ -100,6 +100,95 @@ ul li img:hover{
     text-decoration: none;
     color: white;
 }
+
+#better_with_pepsi{
+    display: flex;
+    width: 100%;
+    height: 450px;
+    background-color: #265cc5;
+}
+
+.container_1{
+    /* border: 2px solid black; */
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container_2{
+    /* border: 2px solid red; */
+    width: 65%;
+    height: 100%;
+}
+
+.inside_container{
+    /* border: 2px solid black; */
+    width: 80%;
+    height: 37%;
+
+}
+#inside1{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+
+}
+#inside1 .txt{
+    background-color:#1437bf;
+    /* border: 2px solid black; */
+    margin: 0px;
+    /* padding: 20px 20px; */
+    display: block;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    padding-top: 2px;
+    font-weight: bolder;
+    color: white;
+}
+#inside2{
+    display: flex;
+    flex-direction: column;
+}
+#inside2 .txt{
+    background-color:#1437bf;
+    /* border: 2px solid black; */
+    margin: 0px;
+    /* padding: 20px 20px; */
+    display: block;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    padding-top: 2px;
+    font-weight: bolder;
+    color: white;
+}
+.inside_container .txt:hover{
+    cursor: context-menu;
+}
+
+.container_2{
+    background: url(./assets/PEP_BWP_D.jpg) no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.container_2 img{
+    width: 350px;
+    height: 130px;
+    /* border: 2px solid black; */
+
+}
+
+
+
+
+
 
 
 
