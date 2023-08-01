@@ -1,0 +1,113 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* position: absolute;
+    top: 0px;
+    left: 0px; */
+    /* *********************header***************** */
+}
+header{
+    /* border: 2px solid black; */
+    /* display: flex; */
+    background-color: #0065c3;
+    position: sticky;
+    top: 0%;
+    max-width: 100%;
+    max-height: 100vh;
+}
+ul{
+    display: flex;
+    padding: 5px 30px 5px 5px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+#view-prod{
+    background-color: #0065c3;
+    border: none;
+    color: white;
+}
+#view-prod:hover{
+    cursor: pointer;
+}
+ul li img{
+    transition: all 0.2s ease-in-out;
+}
+ul li img:hover{
+    transform: rotate(360deg);
+}
+/* *******************body*************************** */
+#apple_music_container{
+    
+    background: url(./assets/background.png);
+    height: 100vh;
+    width: 100%;
+    max-height: 100vh;
+    max-width: 100%;
+    display: flex;
+}
+#bottle_apple_music{
+    background: url(./assets/pzs-can-old.png) no-repeat;
+    background-size:auto 550px;
+    width: 530px;
+    height: 470px;
+    /* position: relative; */
+    /* border: 2px solid black; */
+    display: flex;
+    margin:150px -80px;
+}
+#unlock_music{
+    background: url(./assets/apple-music-lockup-small-mobile.svg) no-repeat ;
+    background-size:auto 280px;
+    width: 410px;
+    height: 480px;
+    /* display: flex; */
+    margin:130px 0px 0px 180px;
+    /* border: 2px solid black; */
+}
+ 
+.button input{
+    margin: 320px 0px 0px 135px;
+    padding: 10px 25px;
+    border: 2px solid white;
+    border-radius: 50px;
+    font-weight: bolder;
+    background-color: transparent;
+    color: white;
+}
+
+.button input:hover{
+    background-color: white;
+    color: #0065c3;
+    cursor: pointer;
+}
+
+.button p{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 25px;
+}
+.button p a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+/* .container{
+    background-color:aqua;
+    border: 2px solid black;
+    height: 800px;
+    width: 100%;
+} */
