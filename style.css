@@ -447,7 +447,6 @@ header {
   flex-direction: row-reverse;
   /* border: 2px solid black; */
   width: 100%;
-  flex-wrap: ;
 }
 .social_links img {
   justify-self: flex-end;
