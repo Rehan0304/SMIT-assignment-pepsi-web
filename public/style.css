@@ -3,7 +3,7 @@
   margin: 0px;
   box-sizing: border-box;
   font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
-  max-width: 1620px;
+  /* max-width: 1620px; */
 }
 /* *************************header*************************** */
 header {
@@ -453,4 +453,316 @@ header {
 }
 .social_links a {
   align-self: flex-end;
+}
+
+/* ***************************responsive******************** */
+@media only screen and (max-width: 820px) {
+  /* *************************navbar******************* */
+  header {
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+  }
+  .navigation_bar {
+    display: flex;
+    background-color: #0065c3;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navigation_bar .li_logo {
+    width: 40px;
+    height: 40px;
+    background: url(./assets/logo.PNG) no-repeat center center/cover;
+  }
+  .navigation_bar ul {
+    display: flex;
+    /* border: 1px solid red; */
+    width: 70%;
+    justify-content: flex start;
+    align-items: center;
+  }
+  .navigation_bar ul li {
+    list-style: none;
+    margin: 0px 10px;
+  }
+  .navigation_bar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+  }
+  #view_products {
+    background-color: #0065c3;
+    border: none;
+    color: white;
+    font-weight: 900;
+    font-size: 1rem;
+  }
+  #view_products:hover {
+    cursor: pointer;
+  }
+  .buy_prod {
+    align-self: center;
+    background-color: #0065c3;
+    border: 2px solid white;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-weight: 800;
+  }
+  .buy_prod:hover {
+    cursor: pointer;
+  }
+
+  /* *************************sec1********************* */
+
+  #first_sec {
+    width: 100%;
+    height: 900px;
+    background: url(./assets/background.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  .pepsi_drink {
+    width: 45%;
+    height: 100%;
+    /* border: 2px solid black; */
+    background: url(./assets/pzs-can-old.png) no-repeat center;
+    background-size: auto 500px;
+    /* margin: 0px -50px; */
+    background-position: -150px 35px;
+  }
+  .unlock_txt {
+    width: 60%;
+    height: 600px;
+    background: url(./assets/apple-music-lockup-small-mobile.png) no-repeat
+      center;
+    background-size: auto 250px;
+    background-position-y: 35px;
+    display: flex;
+    flex-direction: column;
+  }
+  .btn {
+    align-self: center;
+    margin: 320px 0px 0px 0px;
+    padding: 8px 25px;
+    background: none;
+    border: 2px solid white;
+    border-radius: 18px 18px;
+    color: white;
+    font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 900;
+  }
+  .btn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #0065c3;
+  }
+  .unlock_txt p {
+    margin: 20px 0px 0px 10px;
+    text-align: center;
+    color: white;
+    font-size: 1.1rem;
+  }
+  .unlock_txt p a {
+    color: white;
+    text-decoration: none;
+  }
+
+  /* **********************sec2**************************** */
+
+  #second_sec {
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  }
+
+  .zero_sugar_can {
+    width: 45%;
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+  }
+  .zero_sugar {
+    background: url(/assets/pzs-can-nobug-desktop.png) no-repeat center;
+    background-size: auto 530px;
+    background-position: -200px 20px;
+    width: 100%;
+    height: 90%;
+    /* border: 2px solid green; */
+    align-self: flex-end;
+    /* z-index: -1; */
+  }
+  .zero_sugar img {
+    position: relative;
+    top: 100px;
+    left: 160px;
+    border: 1px solid white;
+    background-color: white;
+    width: 160px;
+    height: 160px;
+    border-radius: 160px;
+    padding: 15px;
+  }
+
+  .zero_sugar_txt {
+    display: flex;
+    width: 55%;
+    background: url(/assets/taste\ 2023-08-16\ 064851.png) no-repeat center;
+    background-size: auto 220px;
+    /* border: 2px solid green; */
+    background-position: 40px 90px;
+    flex-direction: column;
+  }
+  .zero_sugar_txt p {
+    color: white;
+    position: relative;
+    top: 340px;
+    left: 34px;
+    font-size: 1.8rem;
+    font-weight: 900;
+    /* border: 1px solid yellow; */
+    height: 45px;
+    width: 80%;
+  }
+  .zero_sugar_txt img {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 299px;
+    left: 390px;
+  }
+
+  .video {
+    width: 100%;
+    height: 182px;
+    /* border: 1px solid red; */
+    position: relative;
+    top: 310px;
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: column  ; */
+  }
+  /*.video p{
+    color:red;
+    border: 1px solid blue;
+}
+.adv{
+    display: flex;
+} */
+
+  /* ******************************thirdsec******************** */
+  #nitro_pepsi {
+    background: url(https://www.pepsi.com/en-us/uploads/images/nitro/Desktop_Background.png);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+  }
+  .nitro_can {
+    width: 40%;
+    height: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  .nitro_can img {
+    width: 80%;
+    height: 80%;
+  }
+  .nitro_txt {
+    width: 40%;
+    height: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .nitro_txt img {
+    width: 80%;
+  }
+  .nitro_txt p {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 900;
+  }
+  .nitro_txt button {
+    background: none;
+    color: white;
+    padding: 7px 25px;
+    margin-top: 20px;
+    border: 2px solid white;
+    border-radius: 25px;
+    font-weight: 800;
+  }
+  .nitro_txt button:hover {
+    background-color: white;
+    color: #0065c3;
+    cursor: pointer;
+  }
+
+  /* ***************************fourth sec*********************** */
+
+  #advertise_better_with_pepsi {
+    display: flex;
+    width: 100%;
+    height: 450px;
+    /* border: 2px solid red; */
+  }
+
+  /* ***********************fifth sec**************** */
+  #mango_pepsi {
+    width: 100%;
+    height: 500px;
+    background-color: #0065c3;
+    display: flex;
+  }
+
+  #mango_pepsi .txt {
+    height: 35%;
+    width: 25%;
+    position: relative;
+    top: 30px;
+    left: 40px;
+    z-index: 1;
+  }
+  #mango_pepsi .yellow {
+    width: 100%;
+    position: relative;
+    top: 0px;
+    left: -205px;
+  }
+  #mango_pepsi .blue {
+    position: relative;
+    width: 64%;
+    top: 0px;
+    left: -688px;
+    height: 100%;
+    z-index: 1;
+  }
+
+
+  /* *************six sec******************* */
+  .like_can img {
+    width: 100%;
+    height: 80%;
+  }
+
+  /* *****************seven sec****************** */
+  .flavour_1 button {
+    background-color: #0065c3;
+    border: 2px solid white;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-weight: 800;
+    margin: 30px 150px 0px 30px;
 }
